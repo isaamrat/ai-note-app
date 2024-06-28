@@ -23,7 +23,7 @@ export default function HomePage() {
     const fetchAvatarImage = async () => {
       try {
         const responseImage = await fetch(
-          "https://avatar.iran.liara.run/public"
+          "https://avatar.iran.liara.run/public",{ mode: 'no-cors'}
         );
         const blob = await responseImage.blob();
         const reader = new FileReader();
