@@ -1,0 +1,12 @@
+fastapi
+sqlalchemy
+pymysql
+uvicorn
+
+--for summary
+sumy 
+nltk
+numpy
+
+--run the app
+uvicorn main:app --reload   
